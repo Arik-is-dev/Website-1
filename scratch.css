@@ -1,0 +1,133 @@
+    .Texts {
+        User-select: none;
+    }
+    #WP {
+        Position: Absolute;
+        Top: 0px;
+        Left: 0px;
+        z-index: -10;
+        opacity: 0.3;
+        User-select: none;
+    }
+    #Home-text-button {
+        Position: Relative;
+        User-select: none;
+        Top: 15px;
+        Left: 860px;
+        Background-color: Transparent;
+        Border-color: Transparent;
+    }
+    #Contacts-text-button {
+        Position: Relative;
+        User-select: none;
+        Top: 15px;
+        Left: 1360px;
+        Background-color: Transparent;
+        Border-color: Transparent;
+    }
+    #About-text-button {
+        Position: Relative;
+        User-select: none;
+        Top: 15px;
+        Left: 1085px;
+        Background-color: Transparent;
+        Border-color: Transparent;
+    }
+    #Home-text {
+        font-family: Poppins;
+        font-size: 30px;
+        User-select: none;
+        cursor: url(), pointer;
+        visibility: visible;
+        border-bottom-color: red;
+        border-bottom-style: none;
+        Color: White;
+    }
+    #Znac-text {
+        font-family: Poppins;
+        font-size: 300px;
+        User-select: none;
+        Color: White;
+        width: 100px;
+        height: 50px;
+        Position: Relative;
+        Left: -2px;
+        Top: -200px;
+        Color: White;
+        Border-color: White;
+        Border-width: thick;
+    }
+    #Contacts-text {
+        font-family: Poppins;
+        font-size: 30px;
+        User-select: none;
+        cursor: url(), pointer;
+        visibility: visible;
+        border-bottom-color: red;
+        border-bottom-style: none;
+        Color: White;
+    }
+    #About-text {
+        font-family: Poppins;
+        font-size: 30px;
+
+        User-select: none;
+        cursor: url(), pointer;
+        visibility: visible;
+        border-bottom-color: red;
+        border-bottom-style: none;
+        Color: White;
+    }
+    #Motto-text {
+        font-family: Poppins;
+        font-size: 20px;
+        User-select: none;
+        color: White;
+        Position: Absolute;
+        Top: 500px;
+        Left: 400px;
+    }
+    #Join-Today-text {
+        font-family: Poppins;
+        font-size: 35px;
+        User-select: none;
+        color: White;
+        border-bottom-color: White;
+        border-bottom-style: none;
+    }
+    #Join-Today-button {
+        Position: Absolute;
+        Top: 600px;
+        Left: 650px;
+        Background-color: Transparent;
+        border-width: 0px;
+        Width: 250px;
+        Height: 70px;
+        Border-radius: 10px;
+        border-style: outset;
+        cursor: url(), pointer;
+    }
+    #Home-text:hover {
+        border-bottom-style: solid;
+    }
+    #Contacts-text:hover {
+        border-bottom-style: solid;
+    }
+    #Join-Today-button:hover {
+        background-color: Red;
+    }
+    #About-text:hover {
+        border-bottom-style: solid;
+    }
+    #Home-text:active {
+        color: red;
+    }
+    #Contacts-text:active {
+        color: red;
+    }
+    #About-text:active {
+        color: red;
+    }
+    #Join-Today-text:active {
+        border-bottom-style: solid;
+    }
